@@ -1,22 +1,18 @@
+h1
+{
+    font-size: large;
+}
+
+.Information
+{
+    color:black;
+    background-color: moccasin;
+}
+
 .Summary 
 { 
-    /*
-        Cenarion:
-        FFF5E0  - Beige
-        FF6969  - Coral Pink
-        C70039  - Scarlet
-        141E46  - Navy Blue
-
-        Sunset:
-        F67280  - Soft Pink
-        C06C84  - Mauve
-        6C5B7B  - Dryer Lint
-        355C7D  - Cyan
-    */
-
     color: #355C7D;
     background-color: white;
     width: auto;
     height: auto;
-    border: 5px solid lightgreen;
 }
