@@ -3,6 +3,11 @@ body
     background-color: white;
 }
 
+.TopBar
+{
+    background-color: #CAF7E3;
+}
+
 .Top
 {
     display: flex;
