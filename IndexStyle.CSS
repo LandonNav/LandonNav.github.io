@@ -10,6 +10,13 @@ body
     height: 25px;
     float:none;
     border-style: solid;
+    text-align: center;
+
+    span
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 .Top
