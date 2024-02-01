@@ -8,15 +8,34 @@ body
 {
     background-color: #FA8072;
     display: block;
-    height: 25px;
     float:none;
     border-style: solid;
     text-align: center;
 
-    span
+    ul
     {
-        padding-left: 50px;
-        padding-right: 50px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: center;
+    }
+
+    li 
+    {
+        border-style: solid;
+        padding-Top: 2%;
+        display:block;
+        float: left;
+        padding: 1%;
+        text-align: center;
+        background-color: rgba(238, 237, 235, 1);
+    }
+
+    li:hover
+    {
+        text-color: white;
+        background-color: black;
     }
 }
 
