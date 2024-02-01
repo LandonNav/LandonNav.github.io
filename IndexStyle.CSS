@@ -32,6 +32,11 @@ body
         background-color: rgba(238, 237, 235, 1);
     }
 
+    li a
+    {
+        text-decoration: none;
+    }
+
     li:hover
     {
         text-color: white;
@@ -57,9 +62,4 @@ h1
 .Information
 {
     color:black;
-}
-
-img
-{
-    border-color: pink;
 }
