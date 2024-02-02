@@ -71,25 +71,33 @@ h1
     h2, p
     {
         padding-left: 2%;
+        display: block;
     }
 
-    button
+    .ClassHolder
     {
-        width: 90%;
-        height: 50px;
-        text-align: left;
-    }
+        ul
+        {
+            background-color: #FA8072;
+            border-style: solid;
+            width: 40%;
+            margin-top: 25px;
+            padding-top: 25px;
+            display: inline-block;
 
-    .ClassList
-    {
-        background-color: #FA8072;
-        border-style: solid;
-        width: 40%;
-    }
-    .CourseInfo
-    {
-        display: inline;
-        float:left;
-        width: 50%;
+            button
+            {
+                width: 90%;
+                height: 50px;
+                text-align: left;
+            }
+        }
+
+        .CourseInfo
+        {
+            width: 50%;
+            background-color: #FA8072;
+            display: inline-block;
+        }
     }
 }
