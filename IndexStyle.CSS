@@ -64,10 +64,32 @@ h1
     color:black;
 }
 
-.academics
+.Academics
 {
+    border-style: solid;
+
+    h2, p
+    {
+        padding-left: 2%;
+    }
+
     button
     {
-        width: 20%;
+        width: 90%;
+        height: 50px;
+        text-align: left;
+    }
+
+    .ClassList
+    {
+        background-color: #FA8072;
+        border-style: solid;
+        width: 40%;
+    }
+    .CourseInfo
+    {
+        display: inline;
+        float:left;
+        width: 50%;
     }
 }
