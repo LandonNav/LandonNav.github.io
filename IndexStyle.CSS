@@ -96,11 +96,13 @@ h1
         .CourseInfo
         {
             border-style: solid;
-            height: 50%;
-            width: 50%;
+            width: 55%;
             padding-top: 0;
             background-color: #FA8072;
             display: inline-block;
+            vertical-align: top;
+            padding-top: 25px;
+            margin-top: 25px;
         }
     }
 }
@@ -108,4 +110,5 @@ h1
 .Experience
 {
     border-style: solid;
+    background-color: rgba(238, 237, 235, 0.3);
 }
