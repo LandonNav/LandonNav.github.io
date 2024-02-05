@@ -67,6 +67,7 @@ h1
 .Academics
 {
     border-style: solid;
+    background-color: rgba(238, 237, 235, 0.3);
 
     h2, p
     {
@@ -103,6 +104,7 @@ h1
             vertical-align: top;
             padding-top: 25px;
             margin-top: 25px;
+            height: 772px;
         }
     }
 }
