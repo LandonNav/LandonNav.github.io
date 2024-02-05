@@ -111,6 +111,12 @@ h1
 
 .Experience
 {
+    h2, p
+    {
+        padding-left: 2%;
+        display: block;
+    }
+
     border-style: solid;
     background-color: rgba(238, 237, 235, 0.3);
 }
