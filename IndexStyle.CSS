@@ -95,9 +95,17 @@ h1
 
         .CourseInfo
         {
+            border-style: solid;
+            height: 50%;
             width: 50%;
+            padding-top: 0;
             background-color: #FA8072;
             display: inline-block;
         }
     }
+}
+
+.Experience
+{
+    border-style: solid;
 }
