@@ -13,7 +13,8 @@
         <ul>
             <li><a href= "#Academics">Academics</a></li>
             <li><a href= "#Experience">Experience</a></li>
-            <li><a href= "#Other">Personal</a></li>
+            <li><a href= "#Other">Other</a></li>
+            <li><a href= "#Summary">Summary</a></li>
             <li><a href= "#Contacts">Contact Me</a></li>
         </ul>
     </div>
@@ -37,31 +38,37 @@
             I'm currently a 3rd year student at the Lassonde School of Engineering, a part of York University, working towards an Hons. Bsc in Computer Science.
             Below you'll find my relevant coursework. You can click on any of the courses below to bring up a brief summary of what I learned in the course, and 
             find any work I'm able to share.
+
+            <br><br>
+
+            The courses below were supplemented with courses in applied mathmatics (12 credits: differential & integral calculus, linear algebra, and probability), 
+            Arabic (12 credits : 2 6-credit courses), Philosophy (6 credits: jurisprudence, theology), and a one-off course in geography (3 credits).
         </p>
 
         <div class="ClassHolder">
             <div class="ClassList"">
                 <ul> Relevant Coursework
                     <br><br>
-                    <li><button>EECS1001 - Research Directions in Computing</button></li>
-                    <li><button>EECS1012 - Computing: a Net-Centric Approach</button></li>
-                    <li><button>EECS1019 - Discrete Mathmatics for Computer Science</button></li>
-                    <li><button>EECS1022 - App and Mobile Development</button></li>
-                    <li><button>EECS1090 - Intorduction to Logic</button></li>
-                    <li><button>EECS2001 - Introduction to the Theory of Computation</button></li>
-                    <li><button>EECS2021 - Computer Organization</button></li>
-                    <li><button>EECS2030 - Advanced Object-Orietned Programming</button></li>
-                    <li><button>EECS2031 - Software Tools</button></li>
-                    <li><button>EECS2101 - Data Structures & Algorithms</button></li>
-                    <li><button>EECS3000 - Professional Practice in Computing</button></li>
-                    <li><button>EECS3111 - Software Design</button></li>
-                    <li><button>EECS3311 - Operating System Fundamentals</button></li>
-                    <li><button>EECS3461 - User Interfaces</button></li>
+                    <li><button onclick="rdicChange()">EECS1001 - Research Directions in Computing</button></li>
+                    <li><button onclick="cancaChange()">EECS1012 - Net-Centric Introduction to Computing</button></li>
+                    <li><button onclick="dmfcsChange()">EECS1019 - Discrete Math for Computer Science</button></li>
+                    <li><button onclick="pfmcChange()">EECS1022 - Programming for Mobile Computing</button></li>
+                    <li><button onclick="itlfcsChange()">EECS1090 - Intorduction to Logic for Computer Science</button></li>
+                    <li><button onclick="itttocChange()">EECS2001 - Introduction to the Theory of Computation</button></li>
+                    <li><button onclick="coChange()">EECS2021 - Computer Organization</button></li>
+                    <li><button onclick="aoopChange()">EECS2030 - Advanced Object Oriented Programming</button></li>
+                    <li><button onclick="stChange()">EECS2031 - Software Tools</button></li>
+                    <li><button onclick="fodsChange()">EECS2101 - Fundamentals of Data Structures</button></li>
+                    <li><button onclick="ppicChange()">EECS3000 - Professional Practice in Computing</button></li>
+                    <li><button onclick="osfChange()">EECS3221 - Operating System Fundamentals</button></li>
+                    <li><button onclick="sdChange()">EECS3311 - Software Design</button></li>
+                    <li><button onclick="uiChange()">EECS3461 - User Interfaces</button></li>
                     <br><br>
                 </ul>
                 
                 <span class="CourseInfo" id="CourseInfo">
-                    <p>CourseInfo Here</p>
+                    <h3 id="CourseHeader"></h3>
+                    <p id="CourseSummary"></p>
                 </span>
             </div>
         </div>
