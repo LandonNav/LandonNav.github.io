@@ -39,7 +39,6 @@ body
 
     li:hover
     {
-        text-color: white;
         background-color: black;
     }
 }
@@ -119,4 +118,37 @@ h1
 
     border-style: solid;
     background-color: rgba(238, 237, 235, 0.3);
+}
+
+.Other
+{
+    border-style: solid;
+    background-color: rgba(238, 237, 235, 0.3);
+
+    h2, p
+    {
+        padding-left: 2%;
+        display: block;
+    }
+
+    .OtherHolder
+    {
+        margin-left: 7.5%;
+        padding-bottom: 1%;
+        .OtherRelevant
+        {
+            border-style: solid;
+            display: inline-block;
+            width: 45%;
+        }
+
+        .OtherIrrelevant
+        {
+            border-style: solid;
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+            height: 217px;
+        }
+    }
 }
