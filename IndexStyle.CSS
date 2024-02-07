@@ -133,6 +133,12 @@ h1
 
     .OtherHolder
     {
+
+        ul
+        {
+            padding-right: 2%;
+        }
+
         margin-left: 7.5%;
         padding-bottom: 1%;
         .OtherRelevant
@@ -149,6 +155,29 @@ h1
             width: 45%;
             vertical-align: top;
             height: 217px;
+            overflow: scroll;
         }
+    }
+}
+
+.Summary
+{
+    border-style: solid;
+    background-color: rgba(238, 237, 235, 0.3);
+
+    h2
+    {
+        padding-left: 2%;
+    }
+}
+
+.Contacts
+{
+    border-style: solid;
+    background-color: rgba(238, 237, 235, 0.3);
+
+    h2, h3
+    {
+        padding-left: 2%;
     }
 }

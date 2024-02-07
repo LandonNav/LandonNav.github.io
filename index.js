@@ -57,8 +57,3 @@ function uiChange(){
     document.getElementById("CourseHeader").innerHTML = "EECS3461 - User Interfaces"
 }
 //End of courseInfo change methods.
-
-function heightMatch()
-{
-    $(document.getElementById("OtherIrrelevant")).height($(document.getElementById("OtherRelevant")).height());
-}
