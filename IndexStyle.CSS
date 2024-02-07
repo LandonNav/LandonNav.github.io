@@ -1,7 +1,7 @@
 
 body
 {
-    background-color: white;
+    background-color: #f6f4ef;
 }
 
 .Banner
@@ -23,13 +23,11 @@ body
 
     li 
     {
-        border-style: solid;
         padding-Top: 2%;
         display:block;
         float: left;
         padding: 1%;
         text-align: center;
-        background-color: rgba(238, 237, 235, 1);
     }
 
     li a
@@ -39,7 +37,7 @@ body
 
     li:hover
     {
-        background-color: black;
+        text-decoration: underline;
     }
 }
 
@@ -47,7 +45,6 @@ body
 {
     border-style: solid;
     display: flex;
-    background-color: rgba(238, 237, 235, 0.3);
     padding-left: 3%;
     background-image: url("NameBanner.png");
 }
@@ -67,7 +64,7 @@ h1
 .Academics
 {
     border-style: solid;
-    background-color: rgba(238, 237, 235, 0.3);
+    background-color: #f6f4ef;
 
     h2, h3, p
     {
