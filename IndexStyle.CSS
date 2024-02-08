@@ -11,6 +11,7 @@ body
     float:none;
     border-style: solid;
     text-align: center;
+    font-weight: bold;
 
     ul
     {
@@ -43,7 +44,6 @@ body
 
 .Top
 {
-    border-style: solid;
     display: flex;
     padding-left: 3%;
     background-image: url("NameBanner.png");
@@ -65,7 +65,7 @@ h1
 .Academics
 {
     border-style: solid;
-    background-image: url("NoNameBg.png");
+    background-image: url("NoNameBG_UpDown.png");
     background-size:contain;
     background-repeat: repeat-y;
 
@@ -74,6 +74,7 @@ h1
     {
         padding-left: 2%;
         display: block;
+        font-weight: bold;
     }
 
     .ClassHolder
@@ -178,9 +179,9 @@ h1
     border-style: solid;
     background-color: rgba(238, 237, 235, 0.3);
     margin-bottom: 2%;
-    background-image: url("NoNameBg.png");
+    background-image: url("NoNameBG_UpDown.png");
     background-repeat: repeat-y;
-    background-size: contain;
+    background-size:inherit;
 
     h2
     {
