@@ -64,8 +64,11 @@ h1
 
 .Academics
 {
-
-    padding-top: 10%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #dba6a6;
+    margin-top: 5%;
+    margin-left: 12%;
 
     h2, h3, p
     {
@@ -107,7 +110,7 @@ h1
 
 .Experience
 {
-    padding-left: 160px;
+    padding-left: 12%;
     h2, p
     {
         padding-left: 2%;
@@ -121,6 +124,9 @@ h1
 
 .Other
 {
+    padding-top: 3%;
+    padding-left: 12%;
+
     h2, p
     {
         padding-left: 2%;
@@ -136,6 +142,7 @@ h1
 
         margin-left: 7.5%;
         padding-bottom: 1%;
+
         .OtherRelevant
         {
             display: inline-block;
@@ -155,6 +162,8 @@ h1
 
 .Summary
 {
+    padding-top: 3%;
+    padding-left: 12%;
     margin-bottom: 2%;
 
     h2
@@ -165,8 +174,7 @@ h1
     .SummaryNav
     {
         display: inline-block;
-        width: fit-content;
-        padding-left: 6%;
+        padding-left: 2%;
         
         h3
         {
