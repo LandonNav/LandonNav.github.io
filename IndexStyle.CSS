@@ -9,39 +9,43 @@ body
 
 .Banner
 {
-    background-color: #cae4da;
-    text-align: center;
+    background-image: url("./Graphics/navbar_bg.png");
+    background-size: cover;
     font-weight: bold;
     position: fixed;
     width: 100%;
     margin: 0;
     padding: 0;
 
-    ul
+    .NavHolder
     {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
         float: center;
-    }
 
-    li 
-    {
-        display:block;
-        float: left;
-        padding: 1%;
-        text-align: center;
-    }
+        ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-    li a
-    {
-        text-decoration: none;
-    }
+        li 
+        {
+            display: block;
+            float: left;
+            padding: 1%;
+            text-align: center;
+        }
 
-    li:hover
-    {
-        text-decoration: underline;
+        li a
+        {
+            text-decoration: none;
+        }
+
+        li:hover
+        {
+            text-decoration: underline;
+        }
     }
 }
 
