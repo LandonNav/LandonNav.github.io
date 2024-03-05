@@ -50,28 +50,66 @@ body
 {
     padding-top: 5%;
     padding-left: 5%;
+    padding-bottom: 3%;
     background-color: rgba(218, 240, 210, 0.6);
 
     .Headshot
     {
         width: 30%;
-        border-style: solid;
         display: inline-block;
     }
     .NameHolder
     {
+        padding-top: 100px;
         width: 60%;
-        height: 514px;
-        border-style: solid;
         display: inline-block;
         vertical-align: top;
         text-align: center;
+
+        h1
+        {
+            font-family: Garamond, serif;
+            font-size: 5em;
+
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
     }
 }
 
-.Information
+.Summary
 {
-    color:black;
+    padding-top: 2%;
+    padding-left: 2%;
+
+    h2
+    {
+        padding-left: 2%;
+    }
+
+    .SummaryNav
+    {
+        display: inline-block;
+        padding-left: 2%;
+        
+        button
+        {
+            display: block;
+        }
+    }
+
+    .SummaryInfo
+    {
+        display: inline-block;
+        vertical-align: top;
+        width: 80%;
+        height: 222px;
+
+        p
+        {
+            padding-left: 2%;
+        }   
+    }
 }
 
 .Academics
@@ -115,7 +153,6 @@ body
 
 .Experience
 {
-    background-color: rgba(85, 116, 72, 0.6);
     padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -162,43 +199,6 @@ body
             height: 285px;
             overflow:auto;
         }
-    }
-}
-
-.Summary
-{
-    padding-top: 2%;
-    padding-left: 2%;
-
-    background-color: rgba(85, 116, 72, 0.6);
-
-    h2
-    {
-        padding-left: 2%;
-    }
-
-    .SummaryNav
-    {
-        display: inline-block;
-        padding-left: 2%;
-        
-        button
-        {
-            display: block;
-        }
-    }
-
-    .SummaryInfo
-    {
-        display: inline-block;
-        vertical-align: top;
-        width: 80%;
-        height: 222px;
-
-        p
-        {
-            padding-left: 2%;
-        }   
     }
 }
 
