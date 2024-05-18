@@ -78,6 +78,13 @@ body
     }
 }
 
+.TopDivider
+{
+    height: 20px;
+    background-image: url("Graphics/gradient_banner.png");
+    background-size: cover;
+}
+
 .Summary
 {
     background-color: rgba(237, 235, 235, 0.5);
@@ -222,8 +229,13 @@ body
 
 .Contacts
 {
+    color: white;
+    width: 100%;
+    border-color: rgba(218, 240, 210, 0.6);
     border-style: solid;
-    background-color: #cae4da;
+    padding: 0;
+    background-image: url("Graphics/navbar_bg.png");
+    background-size: cover;
 
     h2, h3
     {
